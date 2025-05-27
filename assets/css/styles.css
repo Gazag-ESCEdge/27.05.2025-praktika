@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: #4edfac;
+    height: 96px;
+}
+header img{
+    position:relative;
+    left:17px;
+    height: 64px;
+}
+header nav{
+    margin:auto;
+}
+header nav a{
+    text-decoration: none;
+    color:black;
+    margin:20px;
+    font-size: 110%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input{
+    background: #eee;
+    border:none;
+    height: 25px;
+    padding: 10px;
+}
+textarea{
+    background: #eee;
+    border:none;
+    height: 100px;
+    padding: 10px;
+}
+
+section{
+    width: 256px;
+    height: 480px;
+    margin:20px;
+    background: #eee;
+}
+section img{
+    width: 256px;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding:20px;
+}
+section h3{
+    margin-top:0;
+    font-size: 130%;
+}
+section h4{
+    margin:0;
+    font-weight: 500;
+    font-size: 110%;
+}
+section p{
+    margin-top:0;
+}
+button, .button{
+    font-size: 110%;
+    color: white;
+    background:#897cff;
+    border: none;
+    height: 30px;
+    padding:0;
+    text-align: center;
+}
+
+.about{
+    display: block;
+    margin:50px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center img{
+    width: 384px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    width: 384px;
+}
+#form button{
+    height: 40px;
+}
+#img,#art,#name{
+    display: none;
+}
+.line-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.line-form input{
+    width:155px;
+    height: 30px;
+    margin: 5px;
+}
+.line-form button{
+    width:155px;
+    height: 50px;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4a4385;
+    height: 110px;
+}
+footer nav{
+    color:white;
+    margin: 20px;
+}
+footer nav a{
+    color:white;
+    text-decoration: none;
+}
+.a_admin{
+    color:white;
+    opacity: 40%;
+    font-size: 75%;
+}
