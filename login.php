@@ -12,8 +12,8 @@
     <header>
         <img src="./assets/img/logo.png" alt="Лого">
         <nav>
-            <a href="./index.html">Главная</a>
-            <a href="#">Мои заказы</a>
+            <a href="./index.php">Главная</a>
+            <a href="./my_orders.php">Мои заказы</a>
             <a href="./about.html">О компании</a>
         </nav>
     </header>
@@ -39,8 +39,8 @@
     <footer>
         <div>
             <nav>
-                <a href="./index.html">Главная</a><br>
-                <a href="#">Мои заказы</a><br>
+                <a href="./index.php">Главная</a><br>
+                <a href="./my_orders.php">Мои заказы</a><br>
                 <a href="./about.html">О компании</a>
             </nav>
         </div>
