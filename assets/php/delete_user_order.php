@@ -7,7 +7,7 @@ if(isset($_POST["id"]))
         $stmt = $conn->prepare($sql);
         $stmt->bindValue(":radio33_ordersid", $_POST["id"]);
         $stmt->execute();
-        header("Location: ./../../orders807234578746.php");
+        header("Location: ./../../my_orders.php");
     }
     catch (PDOException $e) {
         echo "Ошибка базы данных: " . $e->getMessage();
